@@ -1,8 +1,8 @@
-server 10.0.0.2 5001
+server 10.0.0.2 5004
 req_size_dist conf/DCTCP_CDF.txt
-rate 100Mbps 10
-rate 250Mbps 30
-rate 350Mbps 60
+rate 50Mbps 10
+rate 100Mbps 30
+rate 200Mbps 60
 dscp 0 25
 dscp 1 25
 dscp 2 25
